@@ -5,7 +5,7 @@ the way to display it in the CLI is to write ls command accompanied with -a (ls 
 
 
 - How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
-you can use mkdir to make an directory. using command pwd shows you the location of your current folder. But to create multiple nested directories you have to use mkdir accompanied by -p. for example mkdir -p file1/file2.
+you can use mkdir to make a directory. using command pwd shows you the location of your current folder. But to create multiple nested directories you have to use mkdir accompanied by -p. for example mkdir -p file1/file2.
 
 
 - How do I append a message to a file, without a newline character, so the output would be:
