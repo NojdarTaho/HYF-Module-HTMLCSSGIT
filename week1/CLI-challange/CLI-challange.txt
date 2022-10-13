@@ -11,6 +11,6 @@ you can use mkdir to make a directory. using command pwd shows you the location 
 - How do I append a message to a file, without a newline character, so the output would be:
 first message
 second message
-I was really confused about this question. I did not want to just google the answer, so i spent some time reading through all the material provided to me to have more grasp on understanding command line interface. I got some glimpses on echo command but did not get a full explanation about what echo can do. Hopefully i fund a video explaining that. In order to append the above output, i have to write echo -e ‘first message \nsecond message’.
-This way i get the output first message in the first line and second message in a newline. I found other interesting uses for echo command. You can create a variable and then echoed by using echo command. for example, u can write myvar=“Nojdar”
-and when you write echo $myvar it gives Nojdar as an output. 
+ i have to write { echo "first message" ; echo "second message"; } >> filename.txt
+first message
+second message
